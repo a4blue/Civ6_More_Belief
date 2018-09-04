@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2c176f47-1d4e-442c-a1f7-4d14f6e074bf" version="1">
+	<Properties>
+		<Name>More Belief</Name>
+		<Description>HIGHLY EXPERIMENTAL ! Gives the possibility to get more Beliefs through a building. Requirement is a Holy Site with Temple. Build after you get your Beliefs with Apostle</Description>
+		<Teaser>More Beliefs ! YAY</Teaser>
+		<Authors>a4blue</Authors>
+	</Properties>
+	<Files>
+		<File>More Belief.sql</File>
+		<File>Assets/UI/ReligionScreen.lua</File>
+	</Files>
+	<Components>
+		<UpdateDatabase id="More_Belief_DB">
+			<Items>
+				<File>More Belief.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<ImportFiles id="More_Belief_UI">
+			<Items>
+				<File>Assets/UI/ReligionScreen.lua</File>
+			</Items>
+		</ImportFiles>
+	</Components>
+</Mod>
